@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <h1>ChatAI Assistant</h1>
+
+        <div class="user-chat-box">
+
+        </div>
+        <div class="ai-chat-box">
+            <img src="https://cdn4.iconfinder.com/data/icons/chatbot-robot-1/100/chatbot_01_01_03_bot_chat_robot_app_artificial_chatbot_dialog-1024.png" alt="" id="aiImage" width="10%">
+
+            <div class="ai-chat-area">
+                    Hello , how can I help you ?
+            </div>
+        </div>
+    </div>
+
+    <div class="prompt-area">
+        <input type="text" id="prompt" placeholder="Message">
+        <button id="image"><img src="image.svg" alt="" id="inside_image">
+        <input type="file" accept="images/*" id="imageInput" hidden>
+        </button>
+        <button id="submit"><img src="send.svg" alt=""></button>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
