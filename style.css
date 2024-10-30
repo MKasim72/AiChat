@@ -117,6 +117,7 @@ h1{
     align-items: center;
     justify-content: center;
     gap: 10px;
+    position: fixed;
 }
 
 .prompt-area input{
